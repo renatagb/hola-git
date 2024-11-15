@@ -1,6 +1,19 @@
-.h1{
-    color: black;
+body{
+    background-color: #fffff5;
 }
-.h2{
-    color: red;
+
+header nav ul li {
+list-style-type: none;
+color: #bda774;
+}
+.logo{
+    max-width: 25%;
+    display: flex;
+    justify-content: flex-start;
+
+}
+nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
 }
