@@ -1,3 +1,4 @@
+/*HEADER*/
 * {
     box-sizing: border-box;
 }
@@ -20,13 +21,19 @@ body ul li a {
     text-decoration: none;
     color: #bda774;
 }
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+/*HEADER*/
+header {
+    background-color: #fffff5;
     padding: 10px 20px;
     border-bottom: 1px solid #bda774;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
     font-family: "Poppins", "lora";
     font-weight: 500;
     font-size: 16px;
@@ -44,11 +51,89 @@ body ul li a {
 
 .menu{
     display: flex;
+    align-items: center;
+    padding-left: 300px;
 }
 .menu li{
     margin-left: 20px;
 }
 
+header form {
+    display: flex;
+    align-items: center;
+    border-bottom: ;
+}
+  
+header form input {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+}
+  
+header form button {
+    padding: 5px 10px;
+    background-color: #bda774;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+}
+
+/*MAIN*/ 
+main h1{
+    font-family: "Poppins", "lora";
+    font-weight: 500;
+    color: #bda774;
+    display: flex;
+    justify-content: center;
+}
+.lista-recetas {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+
+.receta {
+    border: 1px solid #bda774;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.receta img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #bda774;
+}
+
+.receta h2 {
+    font-size: 1.5rem;
+    font-family: "Poppins", "lora";
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+.receta p {
+    font-size: 1rem;
+    margin: 5px 0;
+    font-family: "Poppins", "lora";
+    font-weight: 300;
+}
+
+.receta a {
+    text-decoration: none;
+    color: #bda774;
+    font-weight: bold;
+    font-family: "Poppins", "lora";
+    font-weight: 500;
+
+}
+
+/*FOOTER */
 footer{
     color:#bda774;
     text-decoration: none;
