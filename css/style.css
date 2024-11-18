@@ -1,21 +1,12 @@
 * {
     box-sizing: border-box;
 }
-.open-sans {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400; 
-    font-style: normal;
+.lora {
+    font-family: "Lora", serif;
     font-optical-sizing: auto;
-    font-variation-settings: "wdth" 100;
-}
-
-.poppins {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-}
-.shadows-into-light {
-    font-family: "Shadows Into Light", cursive;
-    font-weight: 400;
+    font-weight: <weight>;
+    font-style: normal;
+      
 }
 body{
     background-color:#fffff5 ;
@@ -36,7 +27,7 @@ body ul li a {
     align-items: center;
     padding: 10px 20px;
     border-bottom: 1px solid #bda774;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", "lora";
     font-weight: 500;
     font-size: 16px;
 }
@@ -58,10 +49,22 @@ body ul li a {
     margin-left: 20px;
 }
 
-.integrantes{
-    color: #bda774;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+footer{
+    color:#bda774;
+    text-decoration: none;
+    padding: 20px 42px;
     border-top: 1px solid #bda774;
+    font-family: "Poppins", "lora";
+    font-weight: 300;
+    
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    flex-wrap: wrap;
+   
+}
+.footer-redes img{
+    max-width: 50px;
 }
