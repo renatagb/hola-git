@@ -18,21 +18,19 @@ function cargarRecetas() {
                         <img src="${receta.image}" alt="${receta.name}">
                         <h2>${receta.name}</h2>
                         <p>Dificultad: ${receta.difficulty}</p>
-                        <a href="receta.html?id=${receta.id}">Ver detalle</a>
+                        <a href="detalle.html?id=${receta.id}">Ver detalle</a>
                     </article>
                 `;
                 recetas += markup;
             }
             listaRecetas.innerHTML = recetas;
-            skip += limit; // Mueve esto dentro del bloque .then
+            skip += limit; 
         })
         .catch(function(error) {
             console.log("Error: " + error);
         });
 }
 
-// Evento para cargar más recetas
 document.getElementById('cargar-mas').addEventListener('click', cargarRecetas);
 
-// Cargar las recetas iniciales
 cargarRecetas();
