@@ -52,7 +52,7 @@ header {
 .menu{
     display: flex;
     align-items: center;
-    padding-left: 300px;
+    padding-left: 280px;
 }
 .menu li{
     margin-left: 20px;
@@ -76,6 +76,10 @@ header form button {
     color: #fff;
     border: none;
     border-radius: 0 4px 4px 0;
+}
+
+header form button:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 
 /*MAIN*/ 
@@ -132,6 +136,25 @@ main h1{
     font-weight: 500;
 
 }
+#cargar-mas {
+    padding: 10px 20px;
+    background-color: #bda774;
+    color: #fffff5;
+    border: 1px solid #bda774;
+    border-radius: 8px;
+    font-family: "Poppins", "Lora", serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+#cargar-mas:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+.boton_mas{
+    display: flex;
+    justify-content: center;
+}
+
 
 /*FOOTER */
 footer{
