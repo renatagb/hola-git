@@ -176,3 +176,62 @@ footer{
 .footer-redes img{
     max-width: 50px;
 }
+
+/* RECETA */
+#detalle-receta {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 40px 20px;
+    font-family: "Poppins", "Lora", serif;
+}
+
+#detalle-receta img {
+    max-width: 50%;
+    height: auto;
+    border: 1px solid #bda774;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+#detalle-receta div {
+    max-width: 50%;
+}
+
+#detalle-receta h1 {
+    font-size: 32px; 
+    font-weight: 500;
+    color: #bda774;
+    margin-bottom: 20px;
+}
+
+#detalle-receta h3 {
+    font-size: 24px; 
+    font-weight: 400;
+    color: #bda774;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#detalle-receta p, #detalle-receta ol, #detalle-receta ul, #detalle-receta li {
+    font-size: 16px; 
+    font-weight: 300;
+    color: black; 
+    margin: 5px 0;
+}
+
+#tiempo-preparacion, #tiempo-coccion {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 5px 0;
+    color: #bda774;
+}
+
+#detalle-receta ol, #detalle-receta ul {
+    margin-left: 20px;
+}
+
+#detalle-receta ol li, #detalle-receta ul li {
+    margin-bottom: 10px;
+}
+
