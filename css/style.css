@@ -174,7 +174,7 @@ footer{
    
 }
 .footer-redes img{
-    max-width: 50px;
+    max-width: 70px;
 }
 
 /* RECETA */
@@ -233,5 +233,13 @@ footer{
 
 #detalle-receta ol li, #detalle-receta ul li {
     margin-bottom: 10px;
+}
+#detalle-receta ul li a {
+    color: black; 
+    text-decoration: none; 
+}
+
+#detalle-receta ul li a:hover {
+    color: #bda774; 
 }
 
