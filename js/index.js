@@ -18,7 +18,7 @@ function cargarRecetas() {
                         <img src="${receta.image}" alt="${receta.name}">
                         <h2>${receta.name}</h2>
                         <p>Dificultad: ${receta.difficulty}</p>
-                        <a href="detalle.html?id=${receta.id}">Ver detalle</a>
+                        <a href="receta.html?id=${receta.id}">Ver detalle</a>
                     </article>
                 `;
                 recetas += markup;
@@ -31,6 +31,6 @@ function cargarRecetas() {
         });
 }
 
-document.getElementById('cargar-mas').addEventListener('click', cargarRecetas);
+document.querySelector('#cargar-mas').addEventListener('click', cargarRecetas);
 
 cargarRecetas();
