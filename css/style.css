@@ -187,7 +187,7 @@ footer{
 }
 
 #detalle-receta img {
-    max-width: 50%;
+    max-width: 40%;
     height: auto;
     border: 1px solid #bda774;
     border-radius: 8px;
@@ -260,16 +260,18 @@ footer{
     margin: 10px;
     width: 200px; 
     box-sizing: border-box;
-    background-color: #fffee0; 
+    background-color: #fffff5; 
 }
 .categoria h2 a {
     color: #bda774;
     text-decoration: none;
     font-size: 18px;
+    font-family: "Poppins", "lora";
     font-weight: 500;
 }
 
 /* DETALLE CATEGORIA */
+
 .detalle-cat {
     display: flex;
     flex-wrap: wrap;
@@ -285,7 +287,7 @@ footer{
     margin: 10px;
     width: 280px;
     box-sizing: border-box;
-    background-color: #fff;
+    background-color: #fffff5;
 }
 
 .det img {
@@ -317,4 +319,68 @@ footer{
 
 .det a:hover {
     color: #a38c5d;
+}
+
+
+/*RESULTADO-BUSQUEDA*/
+.resultado-busqueda {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.resultado-busqueda h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    color: #bda774;
+    margin-bottom: 30px;
+}
+
+.receta {
+    border: 1px solid #bda774;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    width: 280px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.receta img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #bda774;
+    margin-bottom: 15px;
+}
+
+.receta h2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.receta a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #bda774;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.receta a:hover {
+    color: #a38c5d;
+}
+
+.resultado-busqueda p {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
 }
