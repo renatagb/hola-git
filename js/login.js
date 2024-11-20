@@ -10,21 +10,19 @@ form.addEventListener('submit', function(event) {
     let errors = false;
 
     if (email.value === '') {
-        invalidEmail.innerHTML = 'Por favor complete el campo email';
-        invalidEmail.style.display = 'block';
+        alert('Por favor complete el campo email');
         errors = true;
     } else {
-        invalidEmail.style.display = 'none';
+        errors=false
     }
 
     if (password.value === '') {
-        invalidPassword.innerHTML = 'Por favor complete el campo contraseña';
-        invalidPassword.style.display = 'block';
+        alert('Por favor complete el campo contraseña');
         errors = true;
     } else {
-        invalidPassword.style.display = 'none';
-    }
+        errors=false
 
+    }
     if (!errors) {
         this.submit();
     }
