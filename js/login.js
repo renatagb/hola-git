@@ -10,7 +10,7 @@ form.addEventListener('submit', function(event) {
     let errors = false;
 
     if (email.value === '') {
-        invalidEmail.textContent = 'Por favor complete el campo email';
+        invalidEmail.innerHTML = 'Por favor complete el campo email';
         invalidEmail.style.display = 'block';
         errors = true;
     } else {
@@ -18,7 +18,7 @@ form.addEventListener('submit', function(event) {
     }
 
     if (password.value === '') {
-        invalidPassword.textContent = 'Por favor complete el campo contraseña';
+        invalidPassword.innerHTML = 'Por favor complete el campo contraseña';
         invalidPassword.style.display = 'block';
         errors = true;
     } else {
@@ -29,3 +29,4 @@ form.addEventListener('submit', function(event) {
         this.submit();
     }
 });
+
