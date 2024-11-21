@@ -369,7 +369,6 @@ footer{
     font-weight: 500;
     color: #bda774;
     text-decoration: none;
-    transition: color 0.3s ease;
 }
 
 .receta a:hover {
@@ -383,7 +382,10 @@ footer{
     color: #333;
     margin-top: 20px;
 }
-
+.textobusca{
+    font-family: "Poppins", "lora";
+    font-weight: 500;
+}
 /*LOGIN*/
 .container {
     display: flex;
