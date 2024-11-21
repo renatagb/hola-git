@@ -8,7 +8,7 @@ fetch('https://dummyjson.com/recipes/tags')
     for (let i = 0; i < data.length; i++) {
         categoria_2+=`
         <article class='categoria'>
-            <h2><a href="detalle-categoria.html?nombre_categoria=${data[i]}">${data[i]}</a></h2>
+            <h2><a href="category.html?nombre_categoria=${data[i]}">${data[i]}</a></h2>
         </article>
     `;
     }

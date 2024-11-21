@@ -23,7 +23,7 @@ fetch(`https://dummyjson.com/recipes/${recetaId}`)
     let categoriasHTML = '';
     for (let i = 0; i < data.tags.length; i++) {
         const categoria=data.tags[i]
-        categoriasHTML += `<li><a href="detalle-categoria.html?nombre_categoria=${categoria}">${categoria}</a></li>`;
+        categoriasHTML += `<li><a href="category.html?nombre_categoria=${categoria}">${categoria}</a></li>`;
     }
     document.querySelector('#detalle-receta ul').innerHTML = categoriasHTML;
   })

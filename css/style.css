@@ -5,7 +5,7 @@
 .lora {
     font-family: "Lora", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
       
 }
@@ -61,7 +61,6 @@ header {
 header form {
     display: flex;
     align-items: center;
-    border-bottom: ;
 }
   
 header form input {
@@ -407,6 +406,8 @@ footer{
 .login-container h2 {
     margin-bottom: 20px;
     color: #bda774;
+    font-family: "Poppins", "lora";
+    font-weight: 500;
 }
 
 .form-group {
@@ -418,6 +419,7 @@ footer{
     display: block;
     margin-bottom: 5px;
     color: #333;
+    font-family: "Poppins", "lora";
     font-weight: 500;
 }
 
@@ -429,12 +431,6 @@ footer{
     box-sizing: border-box;
 }
 
-.invalid-feedback {
-    color: red;
-    font-size: 14px;
-    display: none; 
-}
-
 .btn {
     width: 100%;
     padding: 10px;
@@ -443,6 +439,8 @@ footer{
     border: none;
     border-radius: 4px;
     font-size: 16px;
+    font-family: "Poppins", "lora";
+    font-weight: 500;
 }
 
 .btn:hover {
@@ -451,6 +449,8 @@ footer{
 
 .login-container p {
     margin-top: 20px;
+    font-family: "Poppins", "lora";
+    font-weight: 500;
 }
 
 .login-container p a {

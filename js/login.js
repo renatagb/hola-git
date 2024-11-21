@@ -2,8 +2,6 @@ const form = document.getElementById('login-form');
 const email = document.getElementById('email');
 const password = document.getElementById('password');
 
-const invalidEmail = document.querySelector('.invalid-feedback.email');
-const invalidPassword = document.querySelector('.invalid-feedback.password');
 
 form.addEventListener('submit', function(event) {
     event.preventDefault(); 
