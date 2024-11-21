@@ -301,6 +301,8 @@ footer{
     font-weight: 500;
     color: #333;
     margin-bottom: 10px;
+    font-family: "Lora";
+    font-weight: 500;
 }
 
 .det p {
@@ -308,12 +310,16 @@ footer{
     font-weight: 300;
     color: #333;
     margin: 5px 0;
+    font-family: "Lora";
+    font-weight: 300;
 }
 
 .det a {
     font-size: 16px;
     font-weight: 500;
     color: #bda774;
+    font-family: "Lora";
+    font-weight: 200;
 }
 
 .det a:hover {
