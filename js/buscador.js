@@ -1,5 +1,5 @@
-const formulario_busqueda = document.getElementById('search-form');
-const searchInput = document.getElementById('search-input');
+const formulario_busqueda = document.getElementById('search_form');
+const searchInput = document.getElementById('search_input');
 const errorMessage = document.querySelector('.error_message');
 
 errorMessage.style.display = 'none';

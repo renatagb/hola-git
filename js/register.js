@@ -1,4 +1,4 @@
-const formulario_registro = document.querySelector('.register-form')
+const formulario_registro = document.querySelector('.register_form')
 
 //Campos
 

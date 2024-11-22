@@ -2,7 +2,7 @@ const queryString = location.search;
 const queryParams = new URLSearchParams(queryString); 
 const query = queryParams.get('q'); 
 
-const results = document.querySelector('.resultado-busqueda');
+const results = document.querySelector('.resultado_busqueda');
 
     fetch(`https://dummyjson.com/recipes/search?q=${query}`)
     .then(function (response) {

@@ -3,7 +3,7 @@ fetch('https://dummyjson.com/recipes/tags')
     return response.json();
 })
 .then(function(data){
-    const listaCategorias = document.querySelector('.lista-categorias');
+    const listaCategorias = document.querySelector('.lista_categorias');
     let categoria_2=""
     for (let i = 0; i < data.length; i++) {
         categoria_2+=`

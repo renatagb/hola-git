@@ -9,7 +9,7 @@ fetch(`https://dummyjson.com/recipes/tag/${nombre_categoria}`)
 .then(function(data){
     console.log(data)
     let info2=data.recipes
-    const detalle = document.querySelector('.detalle-cat');
+    const detalle = document.querySelector('.detalle_cat');
     let deta = "" ;
     for (let i = 0; i < info2.length; i++) {
         const det = info2[i];

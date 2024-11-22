@@ -1,4 +1,4 @@
-const listaRecetas = document.querySelector('.lista-recetas');
+const listaRecetas = document.querySelector('.lista_recetas');
 let recetas = '';
 let skip = 0;
 const limit = 10;
@@ -31,7 +31,7 @@ function cargarRecetas() {
         });
 }
 
-document.querySelector('#cargar-mas').addEventListener('click', cargarRecetas);
+document.querySelector('#cargar_mas').addEventListener('click', cargarRecetas);
 
 cargarRecetas();
 

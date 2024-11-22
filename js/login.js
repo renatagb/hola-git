@@ -1,4 +1,4 @@
-const formulario = document.getElementById('login-form');
+const formulario = document.getElementById('login_form');
 const email = document.getElementById('email');
 const password = document.getElementById('password');
 
