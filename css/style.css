@@ -547,11 +547,17 @@ footer{
     font-weight: 300;
 }
 
-.ya_tengo_cuenta a {
-    text-decoration: none;
-    color: #bda774;
+.formulario p {
+    margin-top: 20px;
     font-family: "Poppins", "lora";
-    font-weight: 300;
+    font-weight: 500;
 }
 
+.formulario p a {
+    color: #bda774;
+    text-decoration: none;
+}
+
+.formulario p a:hover {
+    text-decoration: underline;
 }
