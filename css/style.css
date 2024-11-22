@@ -474,3 +474,84 @@ footer{
 .login-container p a:hover {
     text-decoration: underline;
 }
+
+/*REGISTRO */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.formulario {
+    background-color: #fff;
+    border: 1px solid #bda774;
+    border-radius: 8px;
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.formulario h2 {
+    margin-bottom: 20px;
+    color: #bda774;
+    font-family: "Poppins", "lora";
+    font-weight: 500;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: 500;
+    font-family: "Poppins", "lora";
+}
+
+.form-group .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.invalid-feedback {
+    color: red;
+    font-size: 14px;
+    display: none; 
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #bda774;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #a38c5d;
+}
+.terminos_condiciones{
+    color: #bda774;
+    font-family: "Poppins", "lora";
+    font-weight: 300;
+}
+
+.ya_tengo_cuenta a {
+    text-decoration: none;
+    color: #bda774;
+    font-family: "Poppins", "lora";
+    font-weight: 300;
+}
+
+}

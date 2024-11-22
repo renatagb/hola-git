@@ -24,14 +24,35 @@
                 <li><a href="register.html">Registro</a></li>
             </ul>
         </nav>
-        <form id="search-form" action="search-results.html" method="GET">
-            <div class="form_container"></div>
-            <input type="text" name="q" id="search-input" placeholder="Buscar recetas...">
-            <button type="submit">Buscar</button>
-          </form>
     </header>
     <main>
-        <section class="resultado-busqueda"></section>
+    <div class="container">
+        <div class="formulario">
+                <h2>Formulario de registro</h2>
+                <form method="get" class="contact-form" action="login.html">
+                    <div class="form-group">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" name="email" id="email" class="form-control" >
+                        <div class="invalid-feedback email"></div>                        
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Contraseña</label>
+                        <input type="password" name="password" id="password" class="form-control">
+                        <div class="invalid-feedback password"></div>
+                    </div>
+                    <div class="terminos_condiciones">
+                        <input type="checkbox" name="terminos" id="">Acepto los terminos y condiciones
+                    </div>
+                <div>
+                    <button type="submit" class="btn btn-success">Enviar</button>
+                </div>
+                    <div class="ya_tengo_cuenta">
+                        <a href="login.html">Ya tengo cuenta</a>
+                    </div>
+                </form>
+        </div>
+    </div>
+
     </main>
     <footer>
         <div class="footer-container">
@@ -52,6 +73,7 @@
             </div>
         </div>
     </footer>
-<script src="js/search-results.js"></script>
+
+    <script src="js/register.js"></script>
 </body>
 </html>
