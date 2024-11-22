@@ -408,6 +408,8 @@ footer{
 .error_message{
     font-family: "Poppins", "lora";
     font-weight: 500;
+    font-size: 10px;
+    width:200px;
 }
 
 /*LOGIN*/
@@ -540,6 +542,8 @@ footer{
     color: red;
     font-size: 14px;
     display: none; 
+    font-weight: 300;
+    font-family: "Poppins", "lora";
 }
 
 .btn {
