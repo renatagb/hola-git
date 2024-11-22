@@ -1,4 +1,3 @@
-
 const queryString = location.search; 
 const queryParams = new URLSearchParams(queryString); 
 const query = queryParams.get('q'); 
