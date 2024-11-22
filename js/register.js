@@ -1,5 +1,4 @@
-const form = document.querySelector('form')
-
+const formulario_registro = document.querySelector('.register-form')
 
 //Campos
 
@@ -11,7 +10,7 @@ const invalidEmail = document.querySelector('.email')
 const invalidPassword = document.querySelector('.password')
 
 //Crear event listener submit para el form
-form.addEventListener('submit', function(event){
+formulario_registro.addEventListener('submit', function(event){
     event.preventDefault();
     let error= false;
     if(email.value === ''){

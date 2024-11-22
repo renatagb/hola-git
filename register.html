@@ -25,15 +25,19 @@
             </ul>
         </nav>
         <form id="search-form" action="search-results.html" method="GET">
+            <div class="search_class">
             <input type="text" name="q" id="search-input" placeholder="Buscar recetas...">
+        
             <button type="submit">Buscar</button>
+             </div>
+            <p class="error_message"></p>
           </form>
     </header>
     <main>
     <div class="container">
         <div class="formulario">
                 <h2>Formulario de registro</h2>
-                <form method="get" class="contact-form" action="login.html">
+                <form method="get" class="register-form" action="login.html">
                     <div class="form-group">
                         <label for="email">Email</label>
                         <input type="email" name="email" id="email" class="form-control" >
@@ -79,5 +83,6 @@
     </footer>
 
     <script src="js/register.js"></script>
+    <script src="js/buscador.js"></script>
 </body>
 </html>

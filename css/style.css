@@ -58,7 +58,6 @@ header {
 }
 
 header form {
-    display: flex;
     align-items: center;
 }
 header li a:hover{
@@ -397,6 +396,16 @@ footer{
     margin-top: 20px;
 }
 .textobusca{
+    font-family: "Poppins", "lora";
+    font-weight: 500;
+}
+
+/*BUSCADOR*/
+.search_class{
+    display: flex;
+}
+
+.error_message{
     font-family: "Poppins", "lora";
     font-weight: 500;
 }

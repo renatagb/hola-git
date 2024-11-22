@@ -34,3 +34,5 @@ function cargarRecetas() {
 document.querySelector('#cargar-mas').addEventListener('click', cargarRecetas);
 
 cargarRecetas();
+
+

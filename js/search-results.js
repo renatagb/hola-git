@@ -4,11 +4,6 @@ const query = queryParams.get('q');
 
 const results = document.querySelector('.resultado-busqueda');
 
-if (query === '') {
-    results.innerHTML = `<p class="textobusca">El campo de búsqueda no puede estar vacío.</p>`;
-} else if (query.length < 3) {
-    results.innerHTML = `<p class="textobusca">El término de búsqueda debe tener al menos 3 caracteres.</p>`;
-} else {
     fetch(`https://dummyjson.com/recipes/search?q=${query}`)
     .then(function (response) {
         return response.json();
@@ -41,4 +36,3 @@ if (query === '') {
         console.log("Error: " + error);
         results.innerHTML = `<p style="color: red;">Ocurrió un error al buscar las recetas.</p>`;
     });
-}

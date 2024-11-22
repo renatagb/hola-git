@@ -1,9 +1,9 @@
-const form = document.getElementById('login-form');
+const formulario = document.getElementById('login-form');
 const email = document.getElementById('email');
 const password = document.getElementById('password');
 
 
-form.addEventListener('submit', function(event) {
+formulario.addEventListener('submit', function(event) {
     event.preventDefault(); 
     let errors = false;
 
