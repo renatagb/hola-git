@@ -547,7 +547,11 @@ footer{
     background-color: #a38c5d;
 }
 
-
+.terminos_condiciones{
+    color: #bda774;
+    font-family: "Poppins", "lora";
+    font-weight: 300;
+}
 .ya_tengo_cuenta a {
     text-decoration: none;
     font-weight: 300;
