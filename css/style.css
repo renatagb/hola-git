@@ -92,7 +92,7 @@ main h1{
     display: flex;
     justify-content: center;
 }
-.lista-recetas {
+.lista_recetas {
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
@@ -138,7 +138,7 @@ main h1{
     font-weight: 500;
 
 }
-#cargar-mas {
+#cargar_mas {
     padding: 10px 20px;
     background-color: #bda774;
     color: #fffff5;
@@ -149,7 +149,7 @@ main h1{
     font-size: 16px;
     text-align: center;
 }
-#cargar-mas:hover {
+#cargar_mas:hover {
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 .boton_mas{
@@ -169,19 +169,19 @@ footer{
     margin-top: 30px;
     
 }
-.footer-container{
+.footer_container{
     display: flex;
     justify-content: space-between; 
     align-items: flex-start; 
     flex-wrap: wrap;
    
 }
-.footer-redes img{
+.footer_redes img{
     max-width: 70px;
 }
 
 /* RECETA */
-#detalle-receta {
+#detalle_receta {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -189,7 +189,7 @@ footer{
     font-family: "Poppins", "Lora", serif;
 }
 
-#detalle-receta img {
+#detalle_receta img {
     max-width: 40%;
     height: auto;
     border: 1px solid #bda774;
@@ -197,18 +197,18 @@ footer{
     margin-right: 20px;
 }
 
-#detalle-receta div {
+#detalle_receta div {
     max-width: 50%;
 }
 
-#detalle-receta h1 {
+#detalle_receta h1 {
     font-size: 32px; 
     font-weight: 500;
     color: #bda774;
     margin-bottom: 20px;
 }
 
-#detalle-receta h3 {
+#detalle_receta h3 {
     font-size: 24px; 
     font-weight: 400;
     color: #bda774;
@@ -216,39 +216,39 @@ footer{
     margin-bottom: 10px;
 }
 
-#detalle-receta p, #detalle-receta ol, #detalle-receta ul, #detalle-receta li {
+#detalle_receta p, #detalle_receta ol, #detalle_receta ul, #detalle_receta li {
     font-size: 16px; 
     font-weight: 300;
     color: black; 
     margin: 5px 0;
 }
 
-#tiempo-preparacion, #tiempo-coccion {
+#tiempo_preparacion, #tiempo_coccion {
     font-size: 16px;
     font-weight: 300;
     margin: 5px 0;
     color: #bda774;
 }
 
-#detalle-receta ol, #detalle-receta ul {
+#detalle_receta ol, #detalle_receta ul {
     margin-left: 20px;
 }
 
-#detalle-receta ol li, #detalle-receta ul li {
+#detalle_receta ol li, #detalle_receta ul li {
     margin-bottom: 10px;
 }
-#detalle-receta ul li a {
+#detalle_receta ul li a {
     color: black; 
     text-decoration: none; 
 }
 
-#detalle-receta ul li a:hover {
+#detalle_receta ul li a:hover {
     color: #bda774; 
 }
 
 /*CATEGORIAS*/
 
-.lista-categorias {
+.lista_categorias {
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
@@ -279,7 +279,7 @@ footer{
 
 /* DETALLE CATEGORIA */
 
-.detalle-cat {
+.detalle_cat {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -336,14 +336,14 @@ footer{
 
 
 /*RESULTADO-BUSQUEDA*/
-.resultado-busqueda {
+.resultado_busqueda {
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.resultado-busqueda h1 {
+.resultado_busqueda h1 {
     width: 100%;
     text-align: center;
     font-size: 32px;
@@ -389,7 +389,7 @@ footer{
     color: #a38c5d;
 }
 
-.resultado-busqueda p {
+.resultado_busqueda p {
     width: 100%;
     text-align: center;
     font-size: 18px;
@@ -421,7 +421,7 @@ footer{
     height: 100%;
 }
 
-.login-container {
+.login_container {
     background-color: #fff;
     border: 1px solid #bda774;
     border-radius: 8px;
@@ -432,19 +432,19 @@ footer{
     text-align: center;
 }
 
-.login-container h2 {
+.login_container h2 {
     margin-bottom: 20px;
     color: #bda774;
     font-family: "Poppins", "lora";
     font-weight: 500;
 }
 
-.form-group {
+.form_group {
     margin-bottom: 20px;
     text-align: left;
 }
 
-.form-group label {
+.form_group label {
     display: block;
     margin-bottom: 5px;
     color: #333;
@@ -452,7 +452,7 @@ footer{
     font-weight: 500;
 }
 
-.form-group .form-control {
+.form_group .form_control {
     width: 100%;
     padding: 10px;
     border: 1px solid #ddd;
@@ -476,18 +476,18 @@ footer{
     background-color: #a38c5d;
 }
 
-.login-container p {
+.login_container p {
     margin-top: 20px;
     font-family: "Poppins", "lora";
     font-weight: 500;
 }
 
-.login-container p a {
+.login_container p a {
     color: #bda774;
     text-decoration: none;
 }
 
-.login-container p a:hover {
+.login_container p a:hover {
     text-decoration: underline;
 }
 
@@ -518,12 +518,12 @@ footer{
     font-weight: 500;
 }
 
-.form-group {
+.form_group {
     margin-bottom: 20px;
     text-align: left;
 }
 
-.form-group label {
+.form_group label {
     display: block;
     margin-bottom: 5px;
     color: #333;
@@ -531,7 +531,7 @@ footer{
     font-family: "Poppins", "lora";
 }
 
-.form-group .form-control {
+.form_group .form_control {
     width: 100%;
     padding: 10px;
     border: 1px solid #ddd;
@@ -539,7 +539,7 @@ footer{
     box-sizing: border-box;
 }
 
-.invalid-feedback {
+.invalid_feedback {
     color: red;
     font-size: 14px;
     display: none; 
