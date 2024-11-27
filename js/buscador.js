@@ -2,12 +2,10 @@ const formulario_busqueda = document.getElementById('search_form');
 const searchInput = document.getElementById('search_input');
 const errorMessage = document.querySelector('.error_message');
 
-errorMessage.style.display = 'none';
 
 formulario_busqueda.addEventListener('submit', function (event) {
     event.preventDefault(); 
     let error = false;
-    
 
     if (searchInput.value === '') {
         errorMessage.innerText = 'El campo está vacío.';
@@ -19,11 +17,9 @@ formulario_busqueda.addEventListener('submit', function (event) {
         errorMessage.style.display = 'block';
         error = true;
     } 
-    else {
-        errorMessage.style.display = 'none'; 
-    }
 
     if (!error) {
         this.submit();
     }
 });
+

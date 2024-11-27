@@ -27,6 +27,7 @@ header {
     border-bottom: 1px solid #bda774;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .navbar {
     display: flex;
@@ -410,6 +411,7 @@ footer{
     font-weight: 500;
     font-size: 10px;
     width:200px;
+    display: none;
 }
 
 /*LOGIN*/
@@ -587,6 +589,7 @@ footer{
 }
 
 
+
 @media (max-width: 430px) {
     header {
         padding: 10px;
@@ -637,12 +640,18 @@ footer{
         flex-direction: column;
         justify-content: center;
     }
+    .search_class{
+        display: flex;
+        flex-direction: column;
+
+
+    }
 
 }
 
 @media (max-width: 920px) {
     header {
-        flex-direction: row; 
+        flex-direction: column; 
         justify-content: space-between;
     }
 
