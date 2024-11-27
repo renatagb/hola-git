@@ -586,3 +586,89 @@ footer{
 .formulario p a:hover {
     text-decoration: underline;
 }
+@media (max-width: 430px) {
+    header {
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .navbar {
+        flex-direction: column; 
+        align-items: center;
+        width: 100%;
+    }
+
+    .menu {
+        flex-direction: column; 
+        width: 100%; 
+        align-items: center;
+    }
+
+    .menu li {
+        margin: 0; 
+    }
+
+    .menu li a {
+        font-size: 18px; 
+        text-align: center;
+    }
+    #search_form {
+        width: 100%;
+    }
+
+    .logo img {
+        width: auto;
+        max-width: 100%;
+        padding: 0;
+    }
+    .detalle_receta {
+        flex-direction: row; 
+        align-items: flex-start;
+    }
+
+    .imagen_receta {
+        max-width: 45%; 
+    }
+    header form {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 920px) {
+    header {
+        flex-direction: row; 
+        justify-content: space-between;
+    }
+
+    .menu {
+        flex-direction: row; 
+        padding-left: 0;
+    }
+
+    .menu li {
+        margin-left: 15px; 
+    }
+
+    .logo img {
+        width: auto;
+        max-width: 100%;
+    }
+
+    header form {
+        justify-content: center; 
+    }
+    .detalle_receta {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .imagen_receta {
+        max-width: 85%; 
+    }
+
+}
