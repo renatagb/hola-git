@@ -58,7 +58,6 @@ header {
 }
 
 header form {
-    display: flex;
     align-items: center;
 }
 header li a:hover{
@@ -181,7 +180,7 @@ footer{
 }
 
 /* RECETA */
-#detalle_receta {
+.detalle_receta {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -189,7 +188,7 @@ footer{
     font-family: "Poppins", "Lora", serif;
 }
 
-#detalle_receta img {
+.detalle_receta img {
     max-width: 40%;
     height: auto;
     border: 1px solid #bda774;
@@ -197,18 +196,18 @@ footer{
     margin-right: 20px;
 }
 
-#detalle_receta div {
+.detalle_receta div {
     max-width: 50%;
 }
 
-#detalle_receta h1 {
+.detalle_receta h1 {
     font-size: 32px; 
     font-weight: 500;
     color: #bda774;
     margin-bottom: 20px;
 }
 
-#detalle_receta h3 {
+.detalle_receta h3 {
     font-size: 24px; 
     font-weight: 400;
     color: #bda774;
@@ -216,33 +215,33 @@ footer{
     margin-bottom: 10px;
 }
 
-#detalle_receta p, #detalle_receta ol, #detalle_receta ul, #detalle_receta li {
+.detalle_receta p, .detalle_receta ol, .detalle_receta ul, .detalle_receta li {
     font-size: 16px; 
     font-weight: 300;
     color: black; 
     margin: 5px 0;
 }
 
-#tiempo_preparacion, #tiempo_coccion {
+.tiempo_preparacion, .tiempo_coccion {
     font-size: 16px;
     font-weight: 300;
     margin: 5px 0;
     color: #bda774;
 }
 
-#detalle_receta ol, #detalle_receta ul {
+.detalle_receta ol, .detalle_receta ul {
     margin-left: 20px;
 }
 
-#detalle_receta ol li, #detalle_receta ul li {
+.detalle_receta ol li, .detalle_receta ul li {
     margin-bottom: 10px;
 }
-#detalle_receta ul li a {
+.detalle_receta ul li a {
     color: black; 
     text-decoration: none; 
 }
 
-#detalle_receta ul li a:hover {
+.detalle_receta ul li a:hover {
     color: #bda774; 
 }
 
@@ -586,6 +585,8 @@ footer{
 .formulario p a:hover {
     text-decoration: underline;
 }
+
+
 @media (max-width: 430px) {
     header {
         padding: 10px;
