@@ -265,6 +265,14 @@ footer{
     box-sizing: border-box;
     background-color: #fffff5; 
 }
+.categoria h2{
+    font-family: "Poppins", "lora";
+    font-weight: 500;
+}
+.categoria h2 p {
+    font-family: "Poppins", "lora";
+    font-weight: 500;
+}
 .categoria h2 a {
     color: #bda774;
     text-decoration: none;
