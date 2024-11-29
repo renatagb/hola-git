@@ -623,7 +623,7 @@ footer{
 }
 
 
-@media (max-width: 430px) {
+@media (max-width: 640px) {
     header {
         padding: 10px;
         flex-direction: column;
